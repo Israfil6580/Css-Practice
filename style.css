@@ -6,3 +6,44 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.parent{
+    width: 20%;
+    height: 20%;
+    margin: 2rem auto;
+    position: relative;
+    overflow: hidden;
+
+}
+.parent img {
+   max-width: 100%;
+}
+/* image zoom auto */
+@-webkit-keyframes zoom {
+    from {
+    	-webkit-transform: scale(1,1);
+    }
+    to {
+    	-webkit-transform: scale(1.5,1.5);
+    }
+}
+
+/* Standard syntax */
+@keyframes zoom {
+   from {
+        transform: scale(1,1);
+   }
+   to {
+        transform: scale(1.8,1.8);
+   }
+}
+
+img {
+    -webkit-animation: zoom 15s; /* Chrome, Safari, Opera */
+    animation: zoom 15s;
+}
+/* image zoom auto */
+@media (max-width:800px) {
+    .parent {
+        width: 100%;
+    }
+}
