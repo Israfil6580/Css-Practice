@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Practice</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<section class="parent">
-    <img src="./images/israfil.-removebg (2).jpg" alt="">
+<section class="contact-form">
+    <h1>Explore Your Website With Us</h1>
+    <form action="">
+        <div class="child-form">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="p_info">
+        </div>
+        <div class="child-form">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="p_info" required>
+        </div>
+        <div class="child-form">
+            <label for="phone">Phone</label>
+            <input type="number" name="phone" id="p_info">
+        </div>
+        <div class="child-form">
+            <label for="country">Country</label>
+            <select name="country" id="p_info">
+                <option value="BD">Bangladesh</option>
+                <option value="IN">India</option>
+                <option value="PAK">Pakistan</option>
+            </select>
+        </div>
+        <div class="child-form">
+            <label for="t-area">Write Your Openions</label>
+            <textarea name="t-area" id="" cols="30" rows="10" placeholder="type here"></textarea>
+        </div>
+        <div class="child-form">
+            <!-- <input type="button" name="phone" id="p_info"> -->
+            <input type="submit" value="Send Message">
+        </div>
+    </form>
 </section>
 </body>
+
 </html>
