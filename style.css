@@ -36,6 +36,8 @@
 }
 .child-form input[type="submit"]{
     width: 30%;
+    /* display: block; */
+    width: 200px;
     text-align:center;
     /* display: inline-block; */
     background-color: #9c88ff;
@@ -44,10 +46,13 @@
 }
 @media (max-width: 800px) {
     .contact-form {
-        width: 90%;
-        margin: 5%;
+        width: 98%;
+        margin: 1%;
     }
     .child-form input[type="submit"] {
-        width: 100%;
+        width: 50%;
+    }
+    .contact-form {
+        border: none;
     }
 }
