@@ -17,6 +17,7 @@
 }
 .child-form input{
     font-size: 16px; 
+    font-weight: 500;
 }
 .child-form input,
 .child-form label {
