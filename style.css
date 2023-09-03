@@ -15,7 +15,9 @@
     border-radius: 20px;
     margin: 50px auto;
 }
-
+.child-form input{
+    font-size: 16px; 
+}
 .child-form input,
 .child-form label {
     display: block;
@@ -27,7 +29,7 @@
 .child-form select,
 .child-form textarea {
     width: 100%;
-    padding: 8px 0;
+    padding: 8px;
     border: 1px solid #dcdde1;
     border-radius: 5px;
 }
@@ -55,4 +57,5 @@
     .contact-form {
         border: none;
     }
+
 }
